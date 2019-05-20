@@ -15,8 +15,8 @@
         <div class="sec2">
             <div class="container">
                 <div class="content">
-                    <asp:TextBox ID="txtuser" placeholder="Username" runat="server"></asp:TextBox><br />
-                    <asp:TextBox ID="txtpass" placeholder="Password"  runat="server"></asp:TextBox><br />
+                    <asp:TextBox ID="txtuser" placeholder="Логин" runat="server"></asp:TextBox><br />
+                    <asp:TextBox ID="txtpass" placeholder="Пароль"  runat="server"></asp:TextBox><br />
                     <asp:Button ID="btnlogin" runat="server" Text="Log In" OnClick="btnlogin_Click" />
                 </div>
             </div>

@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="content">
                     <asp:TextBox ID="txtuser" placeholder="Логин" runat="server"></asp:TextBox><br />
-                    <asp:TextBox ID="txtpass" placeholder="Пароль"  runat="server"></asp:TextBox><br />
+                    <asp:TextBox ID="txtpass" placeholder="Пароль" TextMode="Password"  runat="server"></asp:TextBox><br />
                     <asp:Button ID="btnlogin" runat="server" Text="Log In" OnClick="btnlogin_Click" />
                 </div>
             </div>
